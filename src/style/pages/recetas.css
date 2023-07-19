@@ -1,0 +1,49 @@
+.historia p{
+    font-size: 15px;
+}
+.personas{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.persona{
+    border: 1px solid #fdb4bf;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+}
+.persona img{
+    max-width: 100%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin-bottom: 25px;
+}
+.persona .diferente{
+margin-bottom: 30px;
+margin-top: 20px;
+}
+
+.persona h6{
+    margin: 0;
+    font-weight: normal;
+    color: #e57d90;
+}
+.persona h5{
+    margin: 0;
+    font-weight: normal;
+    color: black;
+    font-size: 25px;
+    margin-top: 5px;
+    line-height: 25px;
+    background-color: #f99aaa;
+
+}
+.persona h6{
+    font-size: 20px;
+    font-style: italic;
+}
+.persona p{
+    color: #000;
+    font-size: 15px;
+}

@@ -1,0 +1,55 @@
+.Tips{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.tip{
+    border: 1px solid #fdb4bf;
+    border-radius: 5px;
+    height: 350px;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+    margin: 10px;
+    background: #fdb4bf;
+
+}
+.tip img{
+    height: 75px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.tip img:hover{
+transform: scale(1.15);
+
+}
+.tip h6{
+    margin: 0;
+    font-weight: normal;
+    color: #000000;
+}
+.tip h5{
+    margin: 0;
+    font-weight: normal;
+    color: black;
+    font-size: 20px;
+    margin-top: 5px;
+    line-height: 25px;
+
+}
+.tip h6{
+    font-size: 15px;
+    background: #ffffff;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 5%;
+    padding: 5px;
+    height: 150px;
+    display: flex;
+justify-content: center;
+align-items: center;
+   
+    
+}
+.tip p{
+    color: #000;
+    font-size: 5px;
+}

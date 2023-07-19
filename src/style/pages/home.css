@@ -1,0 +1,57 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+.holder{
+    max-width: 960px;
+    margin:0 auto;
+   
+}
+h2{
+    color: #e57d90;
+    font-weight: 400;
+}
+.bienvenidos{
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.testimonios{
+    width: 25%;
+}
+.columnas{
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.bienvenidos p {
+font-size: 20px;
+line-height: 30px;
+}
+.testimonio{
+    background-color: #fdb4bf;
+    padding: 16px;
+}
+.testimonio .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    display: block;
+    line-height: 30px;
+}
+.testimonio .autor{
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin: 12px 0;
+}
+.imagen{
+    margin: 0 auto;
+    display: block;
+    width: 800px;
+}
