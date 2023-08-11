@@ -8,6 +8,25 @@ body {
     margin:0 auto;
    
 }
+.testimonio{
+    color:#000000;
+    background-color: #fdb4bf;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+}
+.nombres{
+    font-size: 35px;
+    background-color: #e57d90;
+    height: 30px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.primero{
+    color: black;
+    font-size: 30px;
+    line-height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 h2{
     color: #e57d90;
     font-weight: 400;
