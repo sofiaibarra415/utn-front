@@ -20,7 +20,7 @@ const NovedadesPage = (props) => {
     
     return (
         <section className="holder">
-            <h2 className='primero'>Contanos tus experiencias siguiendo los planes de #SofiaNutrición y comparti tu foto de alguna receta que hayas hecho!</h2>
+            <h2 className='primero'>Contanos tu experiencia siguiendo los planes de #SofiaNutrición y comparti tu foto de alguna receta que hayas hecho!</h2>
             {loading ? (
                 <p>Cargando...</p>
             ) : (

@@ -1,28 +1,33 @@
 .sugerencias{
+    background-color: #fdb4bf;
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 16px;
-    margin: 16px o;
+    margin: 15px;
     display: flex;
     gap: 32px;
     align-items: center;
 }
 .sugerencias .info h4{
-    color: #e57d90;
+    font-size: 30px;
+    font-weight: bold;
+    color: #cc4f66;
     font-weight: 500;
     font-style: italic;
     border-bottom: 1px solid #e57d90 ;
     padding-bottom: 10px;
-    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .sugerencias .info p{
-    font-size: 15px;
-    line-height: 19px;
+    font-size: 20px;
+    line-height: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #fdb4bf;
 }
 .sugerencias img{
     border-radius: 13px;
     display: block;
-    max-width: 225px;
+    width: 300px;
 }
 .sugerencias:nth-child(even){
     flex-direction: row-reverse;

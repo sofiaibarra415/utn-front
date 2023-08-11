@@ -6,6 +6,27 @@
     justify-content: space-between;
   
 }
+.hola {
+    font-size: 30px;
+    font-weight: bold;
+    color: #cc4f66;
+}
+.continuacion{
+    background-color: #f99aaa;
+    font-size: 23px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 30px;
+    padding: 10px;
+}
+.cuerpo {
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 30px;
+    margin:5px;
+    color: #000000;
+    text-align: left;
+    background-color: rgb(247, 188, 198);
+}
 .persona{
     border: 1px solid #fdb4bf;
     border-radius: 5px;
@@ -13,6 +34,7 @@
     text-align: center;
     padding: 13px;
     box-sizing: border-box;
+    background-color: #fdb4bf;
 }
 .persona img{
     max-width: 100%;
@@ -28,22 +50,26 @@ margin-top: 20px;
     margin: 0;
     font-weight: normal;
     color: #e57d90;
+    font-weight: bold;
 }
 .persona h5{
+    font-size: 30px;
+    font-weight: bold;
+    color: #cc4f66;
     margin: 0;
-    font-weight: normal;
-    color: black;
-    font-size: 25px;
-    margin-top: 5px;
+    margin-top:0;
     line-height: 25px;
-    background-color: #f99aaa;
-
 }
+
 .persona h6{
     font-size: 20px;
-    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 30px;
+    margin:5px;
+    color: #000000;
+    text-align: left;
 }
 .persona p{
     color: #000;
-    font-size: 15px;
+    background-color: #fdb4bf;
 }
